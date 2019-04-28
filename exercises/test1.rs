@@ -10,6 +10,14 @@
 // Put your function here!
 // fn ..... {
 
+fn calculateprice(cnt: i32) -> i32 {
+    if cnt <= 40 {
+        cnt * 2
+    } else {
+        cnt
+    }
+}
+
 // Don't modify this function!
 #[test]
 fn verify_test() {
